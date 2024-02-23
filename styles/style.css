@@ -1,0 +1,136 @@
+/* GLOBAL ATTRIBUTES */
+body {
+    background-color: #2B2B2B;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+[class*="__container"] {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.Header{
+    width: 100%;
+    max-width: inherit;
+    height: 100px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.header__inner{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 55px;
+}
+.header-inner__logo{
+
+}
+.logo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+}
+.header-inner__links{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.signup_header-link{
+    margin-right: 30px;
+}
+.login_header-link{
+    padding: 9px 61px;
+    color: #333333;
+    background-color: #BFAFF2;
+    border-radius: 15px;
+    transition: 0.15s;
+}
+.login_header-link:hover {
+    background-color: #a08fd7;
+    transition: 0.15s;
+}
+.header-link{
+
+}
+
+/* INTRO */
+.main__intro{
+
+}
+.intro{
+
+}
+.intro__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-inner__content{
+
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 465px;
+}
+.intro-content__title{
+
+}
+.content-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.intro-content__subtitle{
+    max-width: 461px;
+    margin-top: 40px;
+}
+.content-subtitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+    opacity: 0.4;
+}
+.intro-content__button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: auto;
+    display: flex;
+}
+.intro-button{
+    padding: 9px 36px;
+    background-color: #F8D57E;
+    border-radius: 15px;
+    color: #333333;
+    transition: 0.15s;
+}
+.intro-button:hover{
+    background-color: #ffc124;
+    transition: 0.15s;
+}
+.intro-inner__image img{
+    max-width: 500px;
+    max-height: 446px;
+    background-color: #333333;
+    border-radius: 20px;
+}
