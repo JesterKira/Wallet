@@ -262,3 +262,145 @@ main::after{
 .feedbacks-user-rate__icon{
     max-height: 20px;
 }
+
+/* CONTACT US  */
+.contactUs{
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.contactUs__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.contactUs-inner__content{
+
+}
+.contactUs-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contactUs-content__text{
+
+}
+.contactUs-text{
+    font-family: 'Poppins', sans-serif;
+}
+.contactUs-text__title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.contactUs-text__subtitle{
+    font-weight: 400;
+    opacity: 0.4;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.contactUs-content__button{
+
+}
+.contactUs-button{
+    display: flex;
+}
+.contactUs-button__btn{
+    padding: 10px 37px;
+    background-color: #F8D57E;
+    border-radius: 15px;
+    color: #333333;
+    transition: 0.15s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.contactUs-button__btn:hover{
+    background-color: #ffc124;
+    transition: 0.15s;
+}
+.contactUs-button__text{
+
+}
+.contactUs-inner__image{
+
+}
+.contactUs-image{
+    max-height: 400px;
+}
+.contactUs-image img{
+    max-height: inherit;
+}
+
+/* FOOTER */
+.Footer{
+    padding: 50px 0;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inner__content{
+
+}
+.footer-content{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.footer-content__title{
+    font-size: 24px;
+    line-height: 1;
+}
+.footer-content__links{
+    display: flex;
+    margin-top: 50px;
+}
+.footer-links__item{
+    
+}
+.footer-links__item:not(:last-child){
+    padding-right: 30px;
+}
+.footer-link{
+
+}
+.footer-inner__form{
+    align-self: flex-end;
+}
+.footer-form, .footer-form__button, .footer-form__text-field, .footer-form__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.footer-form label{
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer-form__text-field{
+    max-width: 300px;
+    margin-right: 25px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 30px;
+    height: 50px;
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer-form__text-field:focus-visible{
+    border: none;
+}
+.footer-form__button{
+    max-width: 175px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 65px;
+    background-color: #BFAFF2;
+    transition: 0.15s;
+}
+.footer-form__button:hover{
+    background-color: #a386ff;
+    transition: 0.15s;
+}
