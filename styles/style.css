@@ -481,6 +481,9 @@ main::after{
     }
 }
 @media (max-width: 540px){
+    .header-inner__links{
+        display: none;
+    }
     .intro__inner img{
         width: 100%;
     }
