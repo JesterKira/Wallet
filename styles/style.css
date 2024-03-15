@@ -445,6 +445,25 @@ main::after{
     }
 }
 @media (max-width: 750px){
+    .main__intro{
+        padding-bottom: 20px;
+    }
+    .main__sponsors{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .main__feedbacks{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #2B2B2B;
+    }
+    .contactUs{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .features-inner__content{
+        margin-top: 80px;
+    }
     .features-articles{
         flex-direction: column;
         align-items: center;
